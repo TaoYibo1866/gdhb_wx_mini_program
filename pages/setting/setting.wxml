@@ -1,0 +1,18 @@
+<!--setting.wxml-->
+<view class="page self-bg">
+  <view class="page__hd"></view>
+  <view class="page__bd">
+        <!--new-->
+        <view class="self-kind-container">
+            <view class="self-kind-list">
+                <view class="kind-list-item">
+                    <navigator class="list-item-hd" url="instruction/instruction">
+                        <view class="list-hd-text">使用指南</view>
+                        <image src="/image/right.png" class='self-pix'></image>
+                    </navigator>
+                </view>
+            </view>
+        </view>
+        
+  </view>
+</view>

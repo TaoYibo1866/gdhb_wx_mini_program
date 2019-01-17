@@ -1,0 +1,37 @@
+/**index.wxss**/
+
+
+.self-ft-pos{
+  margin-top: 20px;
+  /*margin-bottom: 20px*/
+}
+
+.button-sp-area{
+    margin: 150px auto;
+    padding-top: 15px;
+    width: 80%;
+}
+.self-text{
+  width: 80%;
+  
+}
+.self-dir{
+  font-weight: bold;
+}
+.self-mid-text{
+  font-size: 10px;
+  margin: 20px auto;
+  /*text-align: center;*/
+}
+.self-hd-text-right{
+  font-size: 15px;
+  /*align-items: */
+}
+.self-hd-text-left{
+  font-size: 15px
+}
+.self-index-head{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+}

@@ -1,0 +1,41 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/setting/setting",
+    "pages/scancode/scancode",
+    "pages/uploadfile/uploadfile",
+    "pages/error/error",
+    "pages/success/success",
+    "pages/setting/instruction/instruction"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "backgroundColor": "#F8F8F8",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "navigationBarTitleText": "HITCSC",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#F8F8F8",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "image/main.png",
+        "selectedIconPath": "image/main_green.png",
+        "text": "主页"
+      },{
+        "pagePath": "pages/setting/setting",
+        "iconPath": "image/setting.png",
+        "selectedIconPath": "image/setting_green.png",
+        "text": "设置"
+      }
+    ]
+  }
+}
+
+
+

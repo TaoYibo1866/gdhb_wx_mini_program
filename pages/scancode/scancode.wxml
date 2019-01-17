@@ -1,0 +1,22 @@
+<!--datain.wxml-->
+
+<view class="page">
+  <view class="page_hd"></view>
+  <view class="page_bd">
+
+    <!--文字显示输入-->
+    <view class="self-container">
+      <!--二维码结果-->
+      <view class="weui-cell weui-cell_input">
+        <view>
+          <loading hidden="{{hidden}}">
+            上传中...
+          </loading>
+        </view>
+      </view>
+
+    </view>
+  </view>
+</view>
+
+

@@ -1,0 +1,20 @@
+<!--index.wxml-->
+<view class="page">
+  <view class="page__hd">
+
+  <!--加载页面-->
+    <view>
+      <loading hidden="{{hidden}}">
+        {{loadtext}}
+      </loading>
+    </view>
+
+    <view class="page__bd">
+      <view class="button-sp-area center ">
+        <button bindtap="scan" class="weui-btn" type="primary" plain='true'>扫描二维码</button>
+        <button bindtap="chooseimg" class="weui-btn" type="primary" plain='true'>图片上传</button>
+      </view>
+    
+    </view>
+  </view>
+</view>
